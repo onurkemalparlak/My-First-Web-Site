@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	background-color: #ccdld9;
+}
+h1{
+	text-align: center;
+}
+h1,h3,p,a{
+	font-family: 'Tapestry', cursive;
+}
+nav{
+	text-align: right;
+	background-color: #2A2F33;
+}
+
+.menu{
+	padding: 20px;
+}
+.menu a{
+	color: grey;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.menu .linkler{
+	margin-right: 30px;
+	margin-left: 30px;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+.menu .linkler:hover{
+	color: white;
+
+}
+
+.menu #marka{
+	font-style: italic;
+	float: left;
+}
+
+/*HAKKIMDA VE HİZMETLER SAYFASI*/
+.container{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 5px;
+padding-left: 20px;
+padding-right: 20px;
+overflow: hidden;
+	
+	width: 80%;
+	margin: 20px auto 0 auto;
+
+}
+
+.ikon{
+	width: 200px;
+	float: left;
+}
